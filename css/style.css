@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(240, 160, 11), green)
+}
+#container {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    margin: 40px auto;
+    justify-content: center;
+    width: 1350px;
+    height: 700px;
+    border: 6px solid rgb(88, 69, 7);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 10px 10px 8px 2px rgba(40, 41, 30, 0.7);
+}
+h1 {
+    text-align: center;
+    font: bold 30px/30px Arial, Sans Serif;
+    color: rgb(88, 69, 7);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}
+#form {
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 295px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+textarea, input{
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+input {
+    display: inline;
+    margin-right: 40px;
+}
+button {
+    display: block;
+    width: 80px;
+    margin: 4px auto;
+    border-radius: 5px;
+    background-color: rgb(88, 69, 7);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+label {
+    display: inline-block;
+    font: bold 17px/15px Arial, Sans Serif;
+    color: rgb(88, 69, 7);
+    z-index: 1;
+}
+.eachnote{
+    display: inline-block;
+    background-image: url(../images/note.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    padding-top: 30px;
+    font: bold 20px/20px Arial, Sans Serif;
+    color: rgb(88, 69, 7);
+    text-align: center;
+}
+span {
+    display: inline-block;
+    padding: 7px;
+}
+.btn {
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    padding-left: 2px;
+    top: 13px;
+    right: 5px;
+}
